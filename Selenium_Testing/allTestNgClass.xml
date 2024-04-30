@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.selenium.testNG.TestNgOrderExecution"/>
+      <class name ="com.selenium.testNG.AssignmentTestNG1"/>
+      <class name="com.selenium.testNG.GroupInTestNG"/>
+      <class name="com.selenium.testNG.MethodDisableInTestNG"/>
+      <class name="com.selenium.testNG.ParameterPassInTestNG"/>
+      <class name="com.selenium.testNG.PriorityTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

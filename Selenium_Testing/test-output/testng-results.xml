@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-28T22:22:20 IST" name="Default suite" finished-at="2024-04-28T22:22:20 IST" duration-ms="255">
+    <groups>
+      <group name="regration">
+        <method signature="GroupInTestNG.regration()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" name="regration" class="com.selenium.testNG.GroupInTestNG"/>
+      </group> <!-- regration -->
+      <group name="functional">
+        <method signature="GroupInTestNG.functional()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" name="functional" class="com.selenium.testNG.GroupInTestNG"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="GroupInTestNG.functional()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" name="functional" class="com.selenium.testNG.GroupInTestNG"/>
+        <method signature="GroupInTestNG.regration()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" name="regration" class="com.selenium.testNG.GroupInTestNG"/>
+        <method signature="GroupInTestNG.smoke()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" name="smoke" class="com.selenium.testNG.GroupInTestNG"/>
+      </group> <!-- smoke -->
+      <group name="functionaltest">
+        <method signature="GroupInTestNG.fuctionalTestCase()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" name="fuctionalTestCase" class="com.selenium.testNG.GroupInTestNG"/>
+      </group> <!-- functionaltest -->
+      <group name="sanity">
+        <method signature="GroupInTestNG.sanity()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" name="sanity" class="com.selenium.testNG.GroupInTestNG"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-04-28T22:22:20 IST" name="Default test" finished-at="2024-04-28T22:22:20 IST" duration-ms="255">
+      <class name="com.selenium.testNG.GroupInTestNG">
+        <test-method signature="fuctionalTestCase()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" started-at="2024-04-28T22:22:20 IST" name="fuctionalTestCase" finished-at="2024-04-28T22:22:20 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fuctionalTestCase -->
+        <test-method signature="functional()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" started-at="2024-04-28T22:22:20 IST" name="functional" finished-at="2024-04-28T22:22:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functional -->
+        <test-method signature="regration()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" started-at="2024-04-28T22:22:20 IST" name="regration" finished-at="2024-04-28T22:22:20 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regration -->
+        <test-method signature="sanity()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" started-at="2024-04-28T22:22:20 IST" name="sanity" finished-at="2024-04-28T22:22:20 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanity -->
+        <test-method signature="smoke()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" started-at="2024-04-28T22:22:20 IST" name="smoke" finished-at="2024-04-28T22:22:20 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke -->
+        <test-method signature="testingfunction()[pri:0, instance:com.selenium.testNG.GroupInTestNG@17f62e33]" started-at="2024-04-28T22:22:20 IST" name="testingfunction" finished-at="2024-04-28T22:22:20 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingfunction -->
+      </class> <!-- com.selenium.testNG.GroupInTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

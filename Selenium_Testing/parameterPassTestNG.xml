@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="test">
+<parameter name="fname" value="bhaskar"></parameter>
+<parameter name="lname" value="diwakar"></parameter>
+<test name="ParameterPassInTestNG">
+<classes>
+<class name="com.selenium.testNG.ParameterPassInTestNG"></class>
+
+</classes>
+</test>
+</suite>
