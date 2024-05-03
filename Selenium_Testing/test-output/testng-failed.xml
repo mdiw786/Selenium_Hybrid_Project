@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.testNG.HardAndSoftAssert">
+      <class name="com.selenium.testNG.DataDrivenTest">
         <methods>
-          <include name="hardAssert2"/>
+          <include name="getDataFromTestCaseName"/>
         </methods>
-      </class> <!-- com.selenium.testNG.HardAndSoftAssert -->
+      </class> <!-- com.selenium.testNG.DataDrivenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
