@@ -37,5 +37,10 @@ public class PriorityTest {
 	public void test5() {
 		System.out.println("test5() method priority given 1");
 	}
+	@Test(priority = 1)
+	public void git() {
+		System.out.println("git");
+	}
+
 
 }
